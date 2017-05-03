@@ -2,7 +2,7 @@ import json
 import unittest
 
 from Response_from_API import Response_from_API
-from client.RestClient import RestClient
+from RestClient import RestClient
 from ConfigManager import ConfigManager
 
 
