@@ -1,8 +1,5 @@
 # coding=utf-8
-"""
-Author : TH316641
-Created on : 4/5/2017 5:01 PM
-"""
+
 import unittest
 
 from TestNLU_BrowserInternetoutage import TestNLU_BrowserInternetoutage
@@ -12,7 +9,7 @@ from TestNLU_OsSoftwareInstall import TestNLU_OsSoftwareInstall
 from TestNLU_OsUsbconifg import TestNLU_OsUsbconfig
 
 
-class TestSuite(unittest.TestCase):
+class TestSuite_NLUAPI(unittest.TestCase):
 
     if __name__ == "__main__":
         loader = unittest.TestLoader
